@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Öğrenci Kayıt Formu</title>
+  </head>
+  <body>
+    <form method="post" action="kaydet.php">
+      <label for="tam_ad">Tam Ad:</label>
+      <input type="text" id="tam_ad" name="tam_ad" required /><br /><br />
+
+      <label for="eposta">E-posta Adresi:</label>
+      <input type="email" id="eposta" name="eposta" required /><br /><br />
+
+      <label>Cinsiyet:</label>
+      <label for="erkek">Erkek</label>
+      <input type="radio" id="erkek" name="cinsiyet" value="Erkek" required />
+      <label for="kadin">Kadın</label>
+      <input
+        type="radio"
+        id="kadin"
+        name="cinsiyet"
+        value="Kadın"
+        required
+      /><br /><br />
+
+      <input type="submit" value="Gönder" />
+    </form>
+  </body>
+</html>
