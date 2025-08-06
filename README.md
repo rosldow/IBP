@@ -1,2 +1,2 @@
 # IBP
-This respo for Internet Based Programming lecture.
+This repo for Internet Based Programming lecture.
